@@ -5,6 +5,7 @@ public class Cell : MonoBehaviour, ICell
 {
     [SerializeField] private SpriteRenderer background;
     [SerializeField] private SpriteRenderer foreground;
+    [SerializeField] private SpriteRenderer overlay;
     [SerializeField] private SpriteRenderer pointIndicator;
 
     private ECellType cellType;
@@ -34,6 +35,7 @@ public class Cell : MonoBehaviour, ICell
     {
         foreground.sprite = spriteGroup.foreground;
         background.sprite = spriteGroup.background;
+        overlay.sprite = spriteGroup.overlay;
         pointIndicator.sprite = spriteGroup.pointIndicator;
     }
 
@@ -57,14 +59,14 @@ public class Cell : MonoBehaviour, ICell
     {
         if (cellType == ECellType.TARGET) return;
         cellType = ECellType.SOURCE;
-        SetSprites(spriteGroup);
+        pointIndicator.sprite = spriteGroup.pointIndicator;
     }
 
     public void SetEndPoint(SpriteGroup spriteGroup)
     {
         if (cellType == ECellType.SOURCE) return;
         cellType = ECellType.TARGET;
-        SetSprites(spriteGroup);
+        pointIndicator.sprite = spriteGroup.pointIndicator;
     }
 
     public int CompareTo(ICell other)

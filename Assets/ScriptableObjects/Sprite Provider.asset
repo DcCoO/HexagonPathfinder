@@ -13,30 +13,42 @@ MonoBehaviour:
   m_Name: Sprite Provider
   m_EditorClassIdentifier: 
   walkableSprites:
-  - foreground: {fileID: 1051333473, guid: 92bd8b79581b829479cd97b71c3a9e13, type: 3}
+  - pointIndicator: {fileID: 0}
+    overlay: {fileID: 0}
+    foreground: {fileID: 1051333473, guid: 92bd8b79581b829479cd97b71c3a9e13, type: 3}
     background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
-    pointIndicator: {fileID: 0}
-  - foreground: {fileID: -1337121604, guid: 92bd8b79581b829479cd97b71c3a9e13, type: 3}
+  - pointIndicator: {fileID: 0}
+    overlay: {fileID: 0}
+    foreground: {fileID: -1337121604, guid: 92bd8b79581b829479cd97b71c3a9e13, type: 3}
     background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
-    pointIndicator: {fileID: 0}
-  - foreground: {fileID: 377914379, guid: 92bd8b79581b829479cd97b71c3a9e13, type: 3}
+  - pointIndicator: {fileID: 0}
+    overlay: {fileID: 0}
+    foreground: {fileID: 377914379, guid: 92bd8b79581b829479cd97b71c3a9e13, type: 3}
     background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
-    pointIndicator: {fileID: 0}
   nonWalkableSprites:
-  - foreground: {fileID: -862877439, guid: 82c8d49dc59d942449ffa0cea7c8c587, type: 3}
+  - pointIndicator: {fileID: 0}
+    overlay: {fileID: 0}
+    foreground: {fileID: -862877439, guid: 82c8d49dc59d942449ffa0cea7c8c587, type: 3}
     background: {fileID: 21300000, guid: 130eb99872988e447bc64f7775f86af7, type: 3}
-    pointIndicator: {fileID: 0}
-  - foreground: {fileID: 1421863872, guid: 03fa6ee3cd3a1ef4b9e9201bc6292dd0, type: 3}
+  - pointIndicator: {fileID: 0}
+    overlay: {fileID: 1421863872, guid: 03fa6ee3cd3a1ef4b9e9201bc6292dd0, type: 3}
+    foreground: {fileID: 755024540, guid: 82c8d49dc59d942449ffa0cea7c8c587, type: 3}
     background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
-    pointIndicator: {fileID: 0}
-  - foreground: {fileID: -306291288, guid: 03fa6ee3cd3a1ef4b9e9201bc6292dd0, type: 3}
+  - pointIndicator: {fileID: 0}
+    overlay: {fileID: -1589751318, guid: 03fa6ee3cd3a1ef4b9e9201bc6292dd0, type: 3}
+    foreground: {fileID: 755024540, guid: 82c8d49dc59d942449ffa0cea7c8c587, type: 3}
     background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
-    pointIndicator: {fileID: 0}
+  - pointIndicator: {fileID: 0}
+    overlay: {fileID: -306291288, guid: 03fa6ee3cd3a1ef4b9e9201bc6292dd0, type: 3}
+    foreground: {fileID: 755024540, guid: 82c8d49dc59d942449ffa0cea7c8c587, type: 3}
+    background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
   startSprite:
-    foreground: {fileID: 0}
-    background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
     pointIndicator: {fileID: -277308726, guid: 0db24065cb2fd13468e0d1c814d41d0e, type: 3}
-  endSprite:
+    overlay: {fileID: 0}
     foreground: {fileID: 0}
     background: {fileID: 21300000, guid: a29a2d1d23d537947bb7731e78d3010f, type: 3}
+  endSprite:
     pointIndicator: {fileID: 558432353, guid: 0db24065cb2fd13468e0d1c814d41d0e, type: 3}
+    overlay: {fileID: 0}
+    foreground: {fileID: 0}
+    background: {fileID: 0}
