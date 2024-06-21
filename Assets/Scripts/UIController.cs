@@ -36,7 +36,7 @@ public class UIController : MonoBehaviour
     private void OnDisable()
     {
         Pathfinder.OnPathGenerated -= ShowMessage;
-        IMap.OnPointsSetEvent += UpdatePointsPositions;
+        IMap.OnPointsSetEvent -= UpdatePointsPositions;
     }
 
     private void Start()
